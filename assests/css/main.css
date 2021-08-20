@@ -120,7 +120,7 @@
 
 .header__slides {
     padding-top: 1100px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3)), url(/assests/images/slide.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.3)), url(../../assests/images/slide.jpg);
     /* background-position: -200px -300px; */
     background-size: cover ;
     
@@ -324,7 +324,7 @@
 .container__banner {
     width: 100%;
     height: 250px;
-    background-image: url(/assests/images/parallax-search-2.jpg);
+    background-image: url(../../assests/images/parallax-search-2.jpg);
     background-position: 50%;
     display: flex;
     align-items: center;
@@ -407,7 +407,7 @@
 .best__choose__image {
     width: 100%;
     height: 410px;
-    background-image: url(/assests/images/package-3.jpg);
+    background-image: url(../../assests/images/package-3.jpg);
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -507,11 +507,11 @@
 }
 
 .option__item--1 {
-    background: url(/assests/images/parallax-5-filter.jpg);
+    background: url(../../assests/images/parallax-5-filter.jpg);
 }
 
 .option__item--2 {
-    background: url(/assests/images/parallax-6-filter.jpg);
+    background: url(../../assests/images/parallax-6-filter.jpg);
 }
 
 .option__item__discrible {
@@ -647,10 +647,9 @@
 }
 
 .footer {
-    margin-top: 40px;
     width: 100%;
     min-height: 620px;
-    background-image: url(/assests/images/parallax-7.jpg);
+    background-image: url(../../assests/images/parallax-7.jpg);
     background-size: cover;
     background-position: center center;
 }
