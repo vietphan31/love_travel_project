@@ -1,0 +1,139 @@
+@media (max-width: 1150px) {
+    .header__nav__list {
+        display: none;
+    }
+
+    .header__nav {
+        background-color: #555555;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .header__discrible_list {
+        
+    }
+
+    .best__choose__wrap {
+        padding: 10px;
+    }
+
+    .best__choose__image {
+        margin-top: 40px;
+    }
+
+    .best__choose__countdown {
+        width: 100%;
+        left: 0;
+        top: 100%;
+        transform: unset;
+    }
+
+    .best__option__wrap {
+        margin-top: 28px;
+    }
+    
+    .package__item {
+        margin-top: 40px;
+    }
+    
+    .package__content__link {
+        display: block;
+        text-align: center;
+        padding: 14px 0;
+    }
+
+    .contact-form__btn {
+        padding: 12px 50px;
+    }
+
+    .footer__info__socials {
+        text-align: center;
+    }
+
+    .footer__info__social__icon {
+        font-size: 40px;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px)  {
+
+    .header__slides {
+        padding-top: 800px;
+    }
+
+    .header__discrible {
+        top: 150px;
+    }
+
+    .header__discrible__title {
+        font-size: 40px;
+    }
+
+    .container {
+        padding: 40px 0 0 0;
+    }
+
+    .container__banner {
+        height: 350px;
+        flex-direction: column;
+    }
+
+    .container__banner__title {
+        font-size: 40px;
+    }
+
+    .container__banner__btn {
+        margin: 20px 0 0 ;
+    }
+
+    .best__choose__image {
+        height: 280px;
+    }
+
+    .best__choose__countdown {
+        min-height: 80px;
+    }
+
+    .best__option__content {
+        display: none;
+    }
+
+    .best__choose__btn {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__title--s,
+    .footer__title--l {
+        text-align: center;
+    }
+
+    .footer__contact-form form{
+        flex-direction: column;
+        
+    }
+
+    .contact-form__control {
+        margin: 16px 0;
+        width: 90%;
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+
+    .footer__info__logo {
+        margin-bottom: 10px;
+    }
+
+    .footer__info__text {
+        display: none;
+    }
+}
